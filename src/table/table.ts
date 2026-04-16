@@ -18,7 +18,10 @@ function render(el: SparqlResults, result: SPARQLResults) {
     "result",
   ) as HTMLTableElement;
   result_container.innerHTML = "";
+  const tableWrapper = document.createElement("div");
+  tableWrapper.classList.add("table-wrapper");
   const table = document.createElement("table");
+  tableWrapper.appendChild(table);
 
   // NOTE: Use document fragment to batch DOM updates.
 
@@ -55,7 +58,7 @@ function render(el: SparqlResults, result: SPARQLResults) {
   }
 
   table.appendChild(fragment);
-  result_container.appendChild(table);
+  result_container.appendChild(tableWrapper);
 }
 
 function renderValue(
