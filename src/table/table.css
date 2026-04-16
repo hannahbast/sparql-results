@@ -1,0 +1,45 @@
+table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+tr:first-child {
+  border-bottom-width: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+td span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td span:hover {
+  color: #60a5fa;
+  cursor: pointer;
+}
+
+td span:active {
+  color: #1e40af;
+}
+
+td img {
+  width: 3cm;
+  object-fit: cover;
+  /* width: calc(var(--spacing) * 20) */
+}

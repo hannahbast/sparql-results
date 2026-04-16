@@ -1,0 +1,980 @@
+{
+  "head": {
+    "vars": [
+      "city",
+      "city_label",
+      "country",
+      "country_label",
+      "population",
+      "area_km2",
+      "elevation_m",
+      "latitude",
+      "longitude",
+      "timezone",
+      "founded_year",
+      "mayor",
+      "official_language",
+      "currency",
+      "calling_code",
+      "gdp_per_capita_usd",
+      "avg_temp_c",
+      "annual_rainfall_mm",
+      "flag_image",
+      "website"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q64"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Berlin",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Germany",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "3748148"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "891.7"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "34"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "52.52"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "13.405"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Europe/Berlin"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1237"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Kai Wegner",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "German",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Euro"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+49"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "43200"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "10.3"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "570"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berlin.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.berlin.de"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q90"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Paris",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q142"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "France",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2161000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "105.4"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "35"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "48.8566"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "2.3522"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Europe/Paris"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "-250"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Anne Hidalgo",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "French",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Euro"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+33"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "73000"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "12.0"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "637"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Paris.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.paris.fr"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1490"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Tokyo",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Japan",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "13960000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "2194.0"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "40"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "35.6762"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "139.6503"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Asia/Tokyo"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1457"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Yuriko Koike",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Japanese",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Yen"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+81"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "51600"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "15.8"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1530"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tokyo.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.metro.tokyo.lg.jp"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q60"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "New York City",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "United States of America",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8336817"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "783.8"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "10"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "40.7128"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "-74.006"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "America/New_York"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1624"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Eric Adams",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "English",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "US Dollar"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+1"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "85700"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "12.9"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1268"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20York%20City.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.nyc.gov"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q8678"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Freiburg im Breisgau",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q183"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Germany",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "230241"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "153.07"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "278"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "47.999"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "7.842"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Europe/Berlin"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1120"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Martin Horn",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "German",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Euro"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+49"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "45000"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "11.4"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "934"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Wappen%20Freiburg%20im%20Breisgau.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.freiburg.de"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q956"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Beijing",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q148"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "China",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "21540000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "16410.5"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "43"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "39.9042"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "116.4074"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Asia/Shanghai"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "-1045"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Yin Yong",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Mandarin Chinese",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Renminbi"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+86"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "28800"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "13.1"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "571"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beijing.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.beijing.gov.cn"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3630"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "São Paulo",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q155"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Brazil",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12330000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "1521.1"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "760"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "-23.5505"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "-46.6333"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "America/Sao_Paulo"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1554"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Ricardo Nunes",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Portuguese",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Brazilian Real"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+55"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "22300"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "19.2"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1441"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bandeira%20da%20cidade%20de%20S%C3%A3o%20Paulo.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.prefeitura.sp.gov.br"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1218"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Cape Town",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q258"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "South Africa",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "4618000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "2461.0"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "0"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "-33.9249"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "18.4241"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Africa/Johannesburg"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1652"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Geordin Hill-Lewis",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Afrikaans, English, Xhosa",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "South African Rand"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+27"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12400"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "16.7"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "515"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cape%20Town.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.capetown.gov.za"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q406"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Istanbul",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q43"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Turkey",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "15840900"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "5461.0"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "39"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "41.0082"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "28.9784"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Europe/Istanbul"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "-660"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Ekrem İmamoğlu",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Turkish",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Turkish Lira"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+90"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "18500"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "14.8"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "844"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Istanbul.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.ibb.istanbul"
+        }
+      },
+      {
+        "city": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3838"
+        },
+        "city_label": {
+          "type": "literal",
+          "value": "Reykjavik",
+          "xml:lang": "en"
+        },
+        "country": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q189"
+        },
+        "country_label": {
+          "type": "literal",
+          "value": "Iceland",
+          "xml:lang": "en"
+        },
+        "population": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "138000"
+        },
+        "area_km2": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "273.0"
+        },
+        "elevation_m": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "0"
+        },
+        "latitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "64.1466"
+        },
+        "longitude": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "-21.9426"
+        },
+        "timezone": {
+          "type": "literal",
+          "value": "Atlantic/Reykjavik"
+        },
+        "founded_year": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "874"
+        },
+        "mayor": {
+          "type": "literal",
+          "value": "Einar Þorsteinsson",
+          "xml:lang": "en"
+        },
+        "official_language": {
+          "type": "literal",
+          "value": "Icelandic",
+          "xml:lang": "en"
+        },
+        "currency": {
+          "type": "literal",
+          "value": "Icelandic Króna"
+        },
+        "calling_code": {
+          "type": "literal",
+          "value": "+354"
+        },
+        "gdp_per_capita_usd": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "68700"
+        },
+        "avg_temp_c": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "type": "literal",
+          "value": "5.0"
+        },
+        "annual_rainfall_mm": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "799"
+        },
+        "flag_image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Reykjavik.svg"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://reykjavik.is"
+        }
+      }
+    ]
+  }
+}
