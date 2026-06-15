@@ -4,6 +4,7 @@ import { tableRenderer } from "./table/table";
 import type { Binding, RenderConfig, SPARQLResults } from "./types";
 import css from "./style.css?inline";
 
+export { extractConfig, type ExtractConfigResult } from "./config";
 export type { Settings } from "./settings";
 export type * from "./types";
 
