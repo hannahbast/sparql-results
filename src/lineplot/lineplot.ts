@@ -152,10 +152,10 @@ function draw(
   const xIsContinuous = xKind !== "category";
   // Rebuild from scratch: draw runs once per width change (see render).
   root.replaceChildren();
-  // Legend (also toggles series visibility on click).
+  // Legend (also toggles series visibility on click). Appended after the svg
+  // below so it sits at the bottom of the plot.
   const legend = document.createElement("div");
   legend.className = "lp-legend";
-  root.appendChild(legend);
 
   // Layout. Width is measured from the container; height follows a ratio.
   const width = root.clientWidth || 640;
@@ -366,6 +366,7 @@ function draw(
     });
 
   root.appendChild(svg.node()!);
+  root.appendChild(legend);
 
   // Build the legend now that the svg exists, so toggling can update it.
   const updateVisibility = () => {
