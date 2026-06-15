@@ -1,7 +1,7 @@
 import { bisector, extent, max, min } from "d3-array";
 import { axisBottom, axisLeft } from "d3-axis";
 import { type ScalePoint, scaleLinear, scalePoint, scaleTime } from "d3-scale";
-import { create, pointer, select } from "d3-selection";
+import { type Selection, create, pointer, select } from "d3-selection";
 import { curveMonotoneX, line as d3line } from "d3-shape";
 import css from "./lineplot.css?inline";
 import type { SparqlResults } from "../sparql-results";
@@ -121,17 +121,22 @@ function render(
     return;
   }
 
-  // Redraw whenever the container width changes so the SVG's user-space always
-  // matches its rendered size. An SVG measured at one width but displayed at
+  // Redraw whenever the container's size changes so the SVG's user-space always
+  // matches its rendered size. An SVG measured at one size but displayed at
   // another (e.g. embedded in a panel that lays out after render) gets scaled,
-  // which visibly thickens strokes and enlarges dots. The observer also fires
-  // once on observe, providing the correct post-layout width for the first draw.
+  // which visibly thickens strokes and enlarges dots. Height is observed too so
+  // the plot re-fits when its host resizes the box it fills. The observer also
+  // fires once on observe, providing the correct post-layout size for the first
+  // draw.
   const disabled = new Set<string>();
   let lastWidth = 0;
+  let lastHeight = 0;
   const observer = new ResizeObserver((entries) => {
     const width = Math.round(entries[0].contentRect.width);
-    if (width && width !== lastWidth) {
+    const height = Math.round(entries[0].contentRect.height);
+    if (width && (width !== lastWidth || height !== lastHeight)) {
       lastWidth = width;
+      lastHeight = height;
       draw(root, series, slots, order, config, xKind, disabled);
     }
   });
@@ -150,16 +155,70 @@ function draw(
   disabled: Set<string>,
 ) {
   const xIsContinuous = xKind !== "category";
-  // Rebuild from scratch: draw runs once per width change (see render).
+  // Rebuild from scratch: draw runs once per size change (see render).
   root.replaceChildren();
-  // Legend (also toggles series visibility on click). Appended after the svg
-  // below so it sits at the bottom of the plot.
+
+  // The series groups are created with the svg further down; the legend's
+  // interaction handlers reference them at event time, so the binding is
+  // declared up front.
+  let seriesG: Selection<SVGGElement, Series, SVGSVGElement, undefined>;
+
+  // Legend (also toggles series visibility on click). Built before the svg so
+  // its height can be measured and subtracted from the space the svg fills, and
+  // appended first so it sits at the bottom of the plot.
   const legend = document.createElement("div");
   legend.className = "lp-legend";
 
-  // Layout. Width is measured from the container; height follows a ratio.
+  const updateVisibility = () => {
+    seriesG.style("display", (d) => (disabled.has(d.name) ? "none" : null));
+    legend.querySelectorAll<HTMLElement>(".lp-legend-item").forEach((item) => {
+      item.classList.toggle("lp-disabled", disabled.has(item.dataset.series!));
+    });
+  };
+
+  for (const s of series) {
+    const item = document.createElement("div");
+    item.className = "lp-legend-item";
+    item.dataset.series = s.name;
+    item.innerHTML =
+      `<span class="lp-legend-swatch" style="background:${s.color}"></span>` +
+      `<span>${escapeHtml(s.name)}</span>`;
+    item.addEventListener("click", () => {
+      if (disabled.has(s.name)) disabled.delete(s.name);
+      else if (disabled.size < series.length - 1) disabled.add(s.name);
+      updateVisibility();
+    });
+    item.addEventListener("pointerenter", () => {
+      root.classList.add("lp-has-hover");
+      seriesG
+        .select(".lp-line")
+        .classed("lp-active", (d) => (d as Series).name === s.name);
+    });
+    item.addEventListener("pointerleave", () => {
+      root.classList.remove("lp-has-hover");
+    });
+    legend.appendChild(item);
+  }
+  root.appendChild(legend);
+
+  // Layout. Width is measured from the container. The component fills the height
+  // its host gives it, so the svg takes the space left above the legend. When
+  // the host leaves the element unconstrained (content-sized) that space
+  // collapses to ~0, so we fall back to a 2:1 ratio — capped to a fraction of
+  // the viewport — for a sensible self-sized plot.
   const width = root.clientWidth || 640;
-  const height = Math.max(240, Math.round(width * 0.5));
+  // The legend's top margin is outside its offsetHeight, so include it to avoid
+  // overflowing the host box by that margin in fill mode.
+  const legendBox =
+    legend.offsetHeight + parseFloat(getComputedStyle(legend).marginTop || "0");
+  const avail = root.clientHeight - legendBox;
+  const height =
+    avail > 120
+      ? avail
+      : Math.min(
+        Math.round(width * 0.5),
+        Math.max(240, Math.round(window.innerHeight * 0.75)),
+      );
   const margin = { top: 16, right: 24, bottom: 44, left: 56 };
   const innerW = width - margin.left - margin.right;
   const innerH = height - margin.top - margin.bottom;
@@ -206,13 +265,13 @@ function draw(
   const xAxis = xIsContinuous
     ? axisBottom(continuousX).ticks(6)
     : axisBottom(categoryX)
-        .tickFormat((d) => slots[d as number].xLabel)
-        .tickValues(
-          maybeThin(
-            order.map((i) => slots[i].x),
-            innerW,
-          ),
-        );
+      .tickFormat((d) => slots[d as number].xLabel)
+      .tickValues(
+        maybeThin(
+          order.map((i) => slots[i].x),
+          innerW,
+        ),
+      );
 
   svg
     .append("g")
@@ -248,7 +307,7 @@ function draw(
     .curve(curveMonotoneX);
 
   // One group per series holding its line + dots.
-  const seriesG = svg
+  seriesG = svg
     .selectAll<SVGGElement, Series>("g.lp-series")
     .data(series)
     .join("g")
@@ -320,7 +379,7 @@ function draw(
         .attr("class", "lp-focus-dot")
         .attr("r", 5)
         .attr("fill", (s) => s.color)
-        .each(function (s) {
+        .each(function(s) {
           const p = s.points.find((pt) => pt.x === slot.x);
           if (p) {
             select(this)
@@ -365,40 +424,8 @@ function draw(
       tooltip.classList.remove("lp-visible");
     });
 
-  root.appendChild(svg.node()!);
-  root.appendChild(legend);
-
-  // Build the legend now that the svg exists, so toggling can update it.
-  const updateVisibility = () => {
-    seriesG.style("display", (d) => (disabled.has(d.name) ? "none" : null));
-    legend.querySelectorAll<HTMLElement>(".lp-legend-item").forEach((item) => {
-      item.classList.toggle("lp-disabled", disabled.has(item.dataset.series!));
-    });
-  };
-
-  for (const s of series) {
-    const item = document.createElement("div");
-    item.className = "lp-legend-item";
-    item.dataset.series = s.name;
-    item.innerHTML =
-      `<span class="lp-legend-swatch" style="background:${s.color}"></span>` +
-      `<span>${escapeHtml(s.name)}</span>`;
-    item.addEventListener("click", () => {
-      if (disabled.has(s.name)) disabled.delete(s.name);
-      else if (disabled.size < series.length - 1) disabled.add(s.name);
-      updateVisibility();
-    });
-    item.addEventListener("pointerenter", () => {
-      root.classList.add("lp-has-hover");
-      seriesG
-        .select(".lp-line")
-        .classed("lp-active", (d) => (d as Series).name === s.name);
-    });
-    item.addEventListener("pointerleave", () => {
-      root.classList.remove("lp-has-hover");
-    });
-    legend.appendChild(item);
-  }
+  // Insert the svg above the already-appended legend.
+  root.insertBefore(svg.node()!, legend);
 }
 
 /** Reduce categorical ticks so labels do not overlap. */

@@ -29,3 +29,10 @@
     --sr-row-border: #3e444c;
   }
 }
+
+/* Fill the height the host gives the element. When the host leaves the element
+   unconstrained this resolves to `auto` (content height), so renderers that
+   self-size keep working. */
+#result {
+  height: 100%;
+}

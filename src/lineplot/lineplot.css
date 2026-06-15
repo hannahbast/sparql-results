@@ -8,6 +8,7 @@
 
   position: relative;
   width: 100%;
+  height: 100%;
   font-family: system-ui, sans-serif;
   color: var(--lp-text);
 }
@@ -135,6 +136,8 @@
 /* Tooltip */
 .lineplot .lp-tooltip {
   position: absolute;
+  top: 0;
+  left: 0;
   pointer-events: none;
   z-index: 10;
   min-width: 120px;
