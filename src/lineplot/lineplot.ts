@@ -16,6 +16,10 @@ sheet.replaceSync(css);
 
 export const linePlotRenderer = { sheet, render };
 
+/** The active resize observer per result container, so a re-render can replace
+ *  it instead of leaking observers. */
+const observers = new WeakMap<HTMLElement, ResizeObserver>();
+
 const PALETTE = [
   "#3b82f6",
   "#ef4444",
@@ -106,7 +110,23 @@ function render(
     return;
   }
 
-  draw(root, series, slots, order, config, xKind);
+  // Redraw whenever the container width changes so the SVG's user-space always
+  // matches its rendered size. An SVG measured at one width but displayed at
+  // another (e.g. embedded in a panel that lays out after render) gets scaled,
+  // which visibly thickens strokes and enlarges dots. The observer also fires
+  // once on observe, providing the correct post-layout width for the first draw.
+  const disabled = new Set<string>();
+  let lastWidth = 0;
+  const observer = new ResizeObserver((entries) => {
+    const width = Math.round(entries[0].contentRect.width);
+    if (width && width !== lastWidth) {
+      lastWidth = width;
+      draw(root, series, slots, order, config, xKind, disabled);
+    }
+  });
+  observers.get(container)?.disconnect();
+  observers.set(container, observer);
+  observer.observe(root);
 }
 
 function draw(
@@ -116,8 +136,11 @@ function draw(
   order: number[],
   config: LinePlotRenderConfig,
   xKind: XKind,
+  disabled: Set<string>,
 ) {
   const xIsContinuous = xKind !== "category";
+  // Rebuild from scratch: draw runs once per width change (see render).
+  root.replaceChildren();
   // Legend (also toggles series visibility on click).
   const legend = document.createElement("div");
   legend.className = "lp-legend";
@@ -172,13 +195,13 @@ function draw(
   const xAxis = xIsContinuous
     ? axisBottom(continuousX).ticks(6)
     : axisBottom(categoryX)
-      .tickFormat((d) => slots[d as number].xLabel)
-      .tickValues(
-        maybeThin(
-          order.map((i) => slots[i].x),
-          innerW,
-        ),
-      );
+        .tickFormat((d) => slots[d as number].xLabel)
+        .tickValues(
+          maybeThin(
+            order.map((i) => slots[i].x),
+            innerW,
+          ),
+        );
 
   svg
     .append("g")
@@ -255,8 +278,6 @@ function draw(
   const xSlots = order.map((i) => slots[i]).sort((a, b) => a.x - b.x);
   const bisect = bisector<XSlot, number>((d) => d.x).center;
 
-  const disabled = new Set<string>();
-
   svg
     .append("rect")
     .attr("x", margin.left)
@@ -286,9 +307,9 @@ function draw(
       dots
         .join("circle")
         .attr("class", "lp-focus-dot")
-        .attr("r", 3)
+        .attr("r", 5)
         .attr("fill", (s) => s.color)
-        .each(function(s) {
+        .each(function (s) {
           const p = s.points.find((pt) => pt.x === slot.x);
           if (p) {
             select(this)
