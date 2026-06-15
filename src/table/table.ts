@@ -13,7 +13,7 @@ import type {
 const sheet = new CSSStyleSheet();
 sheet.replaceSync(css);
 
-export const tableRenderer = { sheet, render, appendRows };
+export const tableRenderer = { sheet, render, appendRows, clear };
 
 /**
  * Per-element render state, kept private to this module. It survives between
@@ -122,6 +122,17 @@ function appendRows(el: SparqlResults, bindings: Binding[]) {
   if (state.observer && state.sentinel) {
     state.observer.observe(state.sentinel);
   }
+}
+
+/**
+ * Tear down any table render state for `el`: disconnect the pagination
+ * observer and drop the stored state. Safe to call when nothing was rendered.
+ */
+function clear(el: SparqlResults) {
+  const state = states.get(el);
+  if (!state) return;
+  state.observer?.disconnect();
+  states.delete(el);
 }
 
 /** Render `bindings` as rows, advancing the running row index in `state`. */

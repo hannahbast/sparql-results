@@ -14,11 +14,22 @@ import type {
 const sheet = new CSSStyleSheet();
 sheet.replaceSync(css);
 
-export const linePlotRenderer = { sheet, render };
+export const linePlotRenderer = { sheet, render, clear };
 
 /** The active resize observer per result container, so a re-render can replace
  *  it instead of leaking observers. */
 const observers = new WeakMap<HTMLElement, ResizeObserver>();
+
+/**
+ * Tear down any lineplot render state for `el`: disconnect the resize observer
+ * and drop it. Safe to call when nothing was rendered.
+ */
+function clear(el: SparqlResults) {
+  const container = el.shadowRoot!.getElementById("result");
+  if (!container) return;
+  observers.get(container)?.disconnect();
+  observers.delete(container);
+}
 
 const PALETTE = [
   "#3b82f6",
