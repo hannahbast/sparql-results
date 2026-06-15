@@ -1,7 +1,30 @@
-export type RenderConfig = TableRenderConfig;
+export type RenderConfig = TableRenderConfig | LinePlotRenderConfig;
+
+/** A demo/test fixture: a result set bundled with the ways to render it. */
+export interface Fixture {
+  data: SPARQLResults;
+  configs: RenderConfig[];
+}
 
 export interface TableRenderConfig {
   type: "table";
+  /**
+   * Opt in to infinite scrolling. When set, the table emits a `load-more`
+   * CustomEvent as the user scrolls near the bottom; respond by fetching the
+   * next page and feeding it back via `SparqlResults.append_results`.
+   */
+  paginated?: boolean;
+}
+
+export interface LinePlotRenderConfig {
+  type: "lineplot";
+  /** Variable used for the x-axis. */
+  x: string;
+  /** One or more variables rendered as individual lines. */
+  y: string[];
+  /** Optional axis labels; defaults to the variable names. */
+  xLabel?: string;
+  yLabel?: string;
 }
 
 export interface SPARQLResults {

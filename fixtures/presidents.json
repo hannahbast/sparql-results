@@ -1,1572 +1,1586 @@
 {
-  "head": {
-    "vars": [
-      "president_label",
-      "image",
-      "start_year",
-      "end_year",
-      "death_year",
-      "death_reasons",
-      "place_of_death"
-    ]
-  },
-  "results": {
-    "bindings": [
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "George Washington",
-          "xml:lang": "en"
+  "configs": [
+    {
+      "type": "table"
+    },
+    {
+      "type": "lineplot",
+      "x": "president_label",
+      "y": ["death_year"],
+      "xLabel": "President",
+      "yLabel": "Year of death"
+    }
+  ],
+  "data": {
+    "head": {
+      "vars": [
+        "president_label",
+        "image",
+        "start_year",
+        "end_year",
+        "death_year",
+        "death_reasons",
+        "place_of_death"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "George Washington",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilbert%20Stuart%20Williamstown%20Portrait%20of%20George%20Washington.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1789"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1797"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1799"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "acute laryngitis"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.086111 38.707778)"
+          }
         },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gilbert%20Stuart%20Williamstown%20Portrait%20of%20George%20Washington.jpg"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "John Adams",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Adams%20A18236.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1797"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1801"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-71.000000 42.250000)"
+          }
         },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1789"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Thomas Jefferson",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20portrait%20of%20Thomas%20Jefferson%20%28by%20Rembrandt%20Peale%2C%201800%29%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1801"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1809"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1826"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "uremia"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-78.452333 38.010306)"
+          }
         },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1797"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "James Madison",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Madison.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1809"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1817"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1836"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "heart failure"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-78.169400 38.219700)"
+          }
         },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1799"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "James Monroe",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Monroe%20by%20Gilbert%20Stuart%20c1817.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1817"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1825"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1831"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "tuberculosis"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-74.006111 40.712778)"
+          }
         },
-        "death_reasons": {
-          "type": "literal",
-          "value": "acute laryngitis"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "John Quincy Adams",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Q.%20Adams-edit.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1825"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1829"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1848"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "cerebral hemorrhage"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.009167 38.889722)"
+          }
         },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.086111 38.707778)"
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Andrew Jackson",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20jackson%20head.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1829"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1837"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1845"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "heart failure"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-86.613056 36.215000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Martin Van Buren",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Van%20Buren.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1837"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1841"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1862"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "heart failure"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-73.705000 42.393600)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "John Tyler",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/WHOportTyler.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1841"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1845"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1862"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "stroke"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.436667 37.540833)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "William Henry Harrison",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Harrison%20by%20James%20Reid%20Lambdin%2C%201835.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1841"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1841"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.036667 38.897778)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "James K. Polk",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/JamesKnoxPolk.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1845"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1849"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1849"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "cholera"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-86.774444 36.162222)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Zachary Taylor",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Zachary%20Taylor%202.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1849"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1850"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1850"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "cholera, arsenic poisoning, gastroenteritis"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.036667 38.897778)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Millard Fillmore",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Millard%20Fillmore.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1850"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1853"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1874"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "stroke"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-78.878056 42.886389)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Franklin Pierce",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Franklin%20Pierce.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1853"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1857"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1869"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "liver cirrhosis"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-71.538056 43.206667)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "James Buchanan",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Buchanan%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1857"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1861"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1868"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "respiratory failure"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-76.304445 40.039722)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Abraham Lincoln",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Abraham%20Lincoln%20O-77%20matte%20collodion%20print.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1861"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1865"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1865"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "shot to the head"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.025833 38.896667)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Andrew Johnson",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Andrew%20Johnson.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1865"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1869"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1875"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "stroke"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-82.239167 36.336389)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Ulysses S. Grant",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ulysses%20S.%20Grant%201870-1880.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1869"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1877"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1885"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "laryngeal cancer"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-73.744167 43.180000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Rutherford B. Hayes",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Rutherford%20Hayes%201870%20-%201880%20Restored.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1877"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1881"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1893"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-83.117200 41.348900)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "James A. Garfield",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Abram%20Garfield%2C%20photo%20portrait%20seated.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1881"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1881"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1881"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction, aneurysm, pneumonia, gangrene, sepsis, gunshot wound"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-73.991700 40.269200)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Chester A. Arthur",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Chester%20A.%20Arthur%20by%20Abraham%20Bogardus.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1881"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1885"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1886"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "stroke"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-74.006111 40.712778)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Grover Cleveland",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grover%20Cleveland%20-%20NARA%20-%20518139%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1885"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1889"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1908"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-74.656945 40.352222)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Benjamin Harrison",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20Harrison%2C%20head%20and%20shoulders%20bw%20photo%2C%201896.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1889"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1893"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1901"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "influenza, pneumonia"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-86.158056 39.768611)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Grover Cleveland",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grover%20Cleveland%20-%20NARA%20-%20518139%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1893"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1897"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1908"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-74.656945 40.352222)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "William McKinley",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20mckinley.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1897"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1901"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1901"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "gunshot wound"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-78.878056 42.886389)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Theodore Roosevelt",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodore%20Roosevelt%20by%20the%20Pach%20Bros.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1901"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1909"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1919"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "pulmonary embolism"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-73.497500 40.885556)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "William Howard Taft",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabinet%20card%20of%20William%20Howard%20Taft%20by%20Pach%20Brothers%20-%20Cropped%20to%20image.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1909"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1913"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1930"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "heart failure"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.046667 38.890000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Woodrow Wilson",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Woodrow%20Wilson%2C%20Harris%20%26%20Ewing%20bw%20photo%20portrait%2C%201919.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1913"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1921"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.036667 38.895000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Warren G. Harding",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Warren%20G%20Harding%20portrait%20as%20senator%20June%201920.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1921"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1923"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1923"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-122.401724 37.788144)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Calvin Coolidge",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Calvin%20Coolidge%20cph.3g10777%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1923"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1929"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1933"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-72.641667 42.325000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Herbert Hoover",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Hoover%20portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1929"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1933"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1964"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "colorectal cancer, internal bleeding"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-74.006111 40.712778)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Franklin Delano Roosevelt",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/FDR%201944%20Color%20Portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1933"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1945"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1945"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "cerebral hemorrhage"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-84.687648 32.881393)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Harry S. Truman",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/HarryTruman.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1945"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1953"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1972"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "pneumonia, multiple organ dysfunction syndrome"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-94.583333 39.050000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Harry S. Truman",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/TRUMAN%2058-766-06%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1945"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1953"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1972"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "pneumonia, multiple organ dysfunction syndrome"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-94.583333 39.050000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Dwight D. Eisenhower",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dwight%20D.%20Eisenhower%2C%20official%20photo%20portrait%2C%20May%2029%2C%201959.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1953"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1961"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1969"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-77.030000 38.975000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "John F. Kennedy",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20F.%20Kennedy%2C%20White%20House%20color%20photo%20portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1961"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1963"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1963"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "shot to the head"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-96.838333 32.811111)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Lyndon B. Johnson",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyndon%20B.%20Johnson%2C%20photo%20portrait%2C%20leaning%20on%20chair%2C%20color%20cropped.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1963"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1969"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1973"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "acute myocardial infarction"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-98.660000 30.240000)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Richard Nixon",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Nixon%20presidential%20portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1969"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1974"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1994"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "stroke"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-73.994167 40.728333)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Gerald Ford",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gerald%20Ford%20presidential%20portrait%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1974"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1977"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2006"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "arteriosclerosis"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-116.421111 33.769167)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Jimmy Carter",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/JimmyCarterPortrait2.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1977"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1981"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-84.401667 32.035556)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Ronald Reagan",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20Reagan%201981%20presidential%20portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1981"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1989"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2004"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "Alzheimer's disease, pneumonia"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-118.447780 34.083330)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "George H. W. Bush",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20H.%20W.%20Bush%20presidential%20portrait%20%28cropped%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1989"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1993"
+          },
+          "death_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2018"
+          },
+          "death_reasons": {
+            "type": "literal",
+            "value": "Parkinson's disease"
+          },
+          "place_of_death": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(-95.383056 29.762778)"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Bill Clinton",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Clinton.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "1993"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2001"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "George W. Bush",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/George-W-Bush.jpeg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2001"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2009"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Barack Obama",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Barack%20Obama.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2009"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2017"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Donald Trump",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20Portrait%20of%20President%20Donald%20J.%20Trump%20%282025%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2017"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2021"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Joe Biden",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Biden%20presidential%20portrait.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2021"
+          },
+          "end_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2025"
+          }
+        },
+        {
+          "president_label": {
+            "type": "literal",
+            "value": "Donald Trump",
+            "xml:lang": "en"
+          },
+          "image": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20Portrait%20of%20President%20Donald%20J.%20Trump%20%282025%29.jpg"
+          },
+          "start_year": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#int",
+            "type": "literal",
+            "value": "2025"
+          }
         }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "John Adams",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Adams%20A18236.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1797"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1801"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-71.000000 42.250000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Thomas Jefferson",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20portrait%20of%20Thomas%20Jefferson%20%28by%20Rembrandt%20Peale%2C%201800%29%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1801"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1809"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1826"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "uremia"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-78.452333 38.010306)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "James Madison",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Madison.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1809"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1817"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1836"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "heart failure"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-78.169400 38.219700)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "James Monroe",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Monroe%20by%20Gilbert%20Stuart%20c1817.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1817"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1825"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1831"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "tuberculosis"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-74.006111 40.712778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "John Quincy Adams",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Q.%20Adams-edit.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1825"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1829"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1848"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "cerebral hemorrhage"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.009167 38.889722)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Andrew Jackson",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20jackson%20head.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1829"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1837"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1845"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "heart failure"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-86.613056 36.215000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Martin Van Buren",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Van%20Buren.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1837"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1841"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1862"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "heart failure"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-73.705000 42.393600)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "John Tyler",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/WHOportTyler.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1841"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1845"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1862"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "stroke"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.436667 37.540833)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "William Henry Harrison",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Harrison%20by%20James%20Reid%20Lambdin%2C%201835.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1841"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1841"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.036667 38.897778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "James K. Polk",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/JamesKnoxPolk.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1845"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1849"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1849"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "cholera"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-86.774444 36.162222)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Zachary Taylor",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Zachary%20Taylor%202.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1849"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1850"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1850"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "cholera, arsenic poisoning, gastroenteritis"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.036667 38.897778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Millard Fillmore",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Millard%20Fillmore.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1850"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1853"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1874"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "stroke"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-78.878056 42.886389)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Franklin Pierce",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Franklin%20Pierce.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1853"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1857"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1869"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "liver cirrhosis"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-71.538056 43.206667)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "James Buchanan",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Buchanan%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1857"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1861"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1868"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "respiratory failure"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-76.304445 40.039722)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Abraham Lincoln",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Abraham%20Lincoln%20O-77%20matte%20collodion%20print.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1861"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1865"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1865"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "shot to the head"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.025833 38.896667)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Andrew Johnson",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Andrew%20Johnson.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1865"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1869"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1875"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "stroke"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-82.239167 36.336389)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Ulysses S. Grant",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ulysses%20S.%20Grant%201870-1880.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1869"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1877"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1885"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "laryngeal cancer"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-73.744167 43.180000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Rutherford B. Hayes",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Rutherford%20Hayes%201870%20-%201880%20Restored.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1877"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1881"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1893"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-83.117200 41.348900)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "James A. Garfield",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Abram%20Garfield%2C%20photo%20portrait%20seated.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1881"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1881"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1881"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction, aneurysm, pneumonia, gangrene, sepsis, gunshot wound"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-73.991700 40.269200)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Chester A. Arthur",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Chester%20A.%20Arthur%20by%20Abraham%20Bogardus.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1881"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1885"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1886"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "stroke"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-74.006111 40.712778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Grover Cleveland",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grover%20Cleveland%20-%20NARA%20-%20518139%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1885"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1889"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1908"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-74.656945 40.352222)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Benjamin Harrison",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Benjamin%20Harrison%2C%20head%20and%20shoulders%20bw%20photo%2C%201896.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1889"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1893"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1901"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "influenza, pneumonia"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-86.158056 39.768611)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Grover Cleveland",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Grover%20Cleveland%20-%20NARA%20-%20518139%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1893"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1897"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1908"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-74.656945 40.352222)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "William McKinley",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20mckinley.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1897"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1901"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1901"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "gunshot wound"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-78.878056 42.886389)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Theodore Roosevelt",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Theodore%20Roosevelt%20by%20the%20Pach%20Bros.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1901"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1909"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1919"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "pulmonary embolism"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-73.497500 40.885556)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "William Howard Taft",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Cabinet%20card%20of%20William%20Howard%20Taft%20by%20Pach%20Brothers%20-%20Cropped%20to%20image.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1909"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1913"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1930"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "heart failure"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.046667 38.890000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Woodrow Wilson",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Woodrow%20Wilson%2C%20Harris%20%26%20Ewing%20bw%20photo%20portrait%2C%201919.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1913"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1921"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.036667 38.895000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Warren G. Harding",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Warren%20G%20Harding%20portrait%20as%20senator%20June%201920.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1921"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1923"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1923"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-122.401724 37.788144)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Calvin Coolidge",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Calvin%20Coolidge%20cph.3g10777%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1923"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1929"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1933"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-72.641667 42.325000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Herbert Hoover",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Hoover%20portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1929"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1933"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1964"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "colorectal cancer, internal bleeding"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-74.006111 40.712778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Franklin Delano Roosevelt",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/FDR%201944%20Color%20Portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1933"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1945"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1945"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "cerebral hemorrhage"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-84.687648 32.881393)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Harry S. Truman",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/HarryTruman.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1945"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1953"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1972"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "pneumonia, multiple organ dysfunction syndrome"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-94.583333 39.050000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Harry S. Truman",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/TRUMAN%2058-766-06%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1945"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1953"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1972"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "pneumonia, multiple organ dysfunction syndrome"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-94.583333 39.050000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Dwight D. Eisenhower",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Dwight%20D.%20Eisenhower%2C%20official%20photo%20portrait%2C%20May%2029%2C%201959.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1953"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1961"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1969"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-77.030000 38.975000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "John F. Kennedy",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20F.%20Kennedy%2C%20White%20House%20color%20photo%20portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1961"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1963"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1963"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "shot to the head"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-96.838333 32.811111)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Lyndon B. Johnson",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyndon%20B.%20Johnson%2C%20photo%20portrait%2C%20leaning%20on%20chair%2C%20color%20cropped.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1963"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1969"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1973"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "acute myocardial infarction"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-98.660000 30.240000)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Richard Nixon",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Nixon%20presidential%20portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1969"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1974"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1994"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "stroke"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-73.994167 40.728333)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Gerald Ford",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Gerald%20Ford%20presidential%20portrait%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1974"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1977"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2006"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "arteriosclerosis"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-116.421111 33.769167)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Jimmy Carter",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/JimmyCarterPortrait2.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1977"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1981"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-84.401667 32.035556)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Ronald Reagan",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20Reagan%201981%20presidential%20portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1981"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1989"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2004"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "Alzheimer's disease, pneumonia"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-118.447780 34.083330)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "George H. W. Bush",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20H.%20W.%20Bush%20presidential%20portrait%20%28cropped%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1989"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1993"
-        },
-        "death_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2018"
-        },
-        "death_reasons": {
-          "type": "literal",
-          "value": "Parkinson's disease"
-        },
-        "place_of_death": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(-95.383056 29.762778)"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Bill Clinton",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Clinton.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "1993"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2001"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "George W. Bush",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/George-W-Bush.jpeg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2001"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2009"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Barack Obama",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/President%20Barack%20Obama.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2009"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2017"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Donald Trump",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20Portrait%20of%20President%20Donald%20J.%20Trump%20%282025%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2017"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2021"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Joe Biden",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Biden%20presidential%20portrait.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2021"
-        },
-        "end_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2025"
-        }
-      },
-      {
-        "president_label": {
-          "type": "literal",
-          "value": "Donald Trump",
-          "xml:lang": "en"
-        },
-        "image": {
-          "type": "uri",
-          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Presidential%20Portrait%20of%20President%20Donald%20J.%20Trump%20%282025%29.jpg"
-        },
-        "start_year": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#int",
-          "type": "literal",
-          "value": "2025"
-        }
-      }
-    ]
+      ]
+    }
   }
 }

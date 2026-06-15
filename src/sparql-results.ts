@@ -1,20 +1,28 @@
+import { linePlotRenderer } from "./lineplot/lineplot";
 import { getDefaultSettings, type Settings } from "./settings";
 import { tableRenderer } from "./table/table";
-import type { RenderConfig, SPARQLResults } from "./types";
+import type { Binding, RenderConfig, SPARQLResults } from "./types";
 import css from "./style.css?inline";
+
+export type { Settings } from "./settings";
+export type * from "./types";
 
 const baseSheet = new CSSStyleSheet();
 baseSheet.replaceSync(css);
 
 export class SparqlResults extends HTMLElement {
-  static observedAttributes = ["label"];
+  static observedAttributes = [];
 
   public settings: Settings;
 
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.shadowRoot!.adoptedStyleSheets = [baseSheet, tableRenderer.sheet];
+    this.shadowRoot!.adoptedStyleSheets = [
+      baseSheet,
+      tableRenderer.sheet,
+      linePlotRenderer.sheet,
+    ];
     this.settings = getDefaultSettings();
   }
 
@@ -39,11 +47,23 @@ export class SparqlResults extends HTMLElement {
   render_results(result: SPARQLResults, config: RenderConfig) {
     switch (config.type) {
       case "table":
-        tableRenderer.render(this, result);
+        tableRenderer.render(this, result, config);
+        break;
+      case "lineplot":
+        linePlotRenderer.render(this, result, config);
         break;
       default:
-        throw "Unknown config type " + config.type;
+        throw `Unknown config type ${(config as RenderConfig).type}`;
     }
+  }
+
+  /**
+   * Append more rows to a table rendered with `paginated: true`. Pass the next
+   * page of bindings; an empty array signals that all results have been loaded
+   * and stops further `load-more` events. No-op for non-table renders.
+   */
+  append_results(bindings: Binding[]) {
+    tableRenderer.appendRows(this, bindings);
   }
 }
 

@@ -1,135 +1,149 @@
 {
-  "head": {
-    "vars": ["airport", "airport_label", "dist", "location"]
-  },
-  "results": {
-    "bindings": [
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q9686"
+  "configs": [
+    {
+      "type": "table"
+    },
+    {
+      "type": "lineplot",
+      "x": "airport_label",
+      "y": ["dist"],
+      "xLabel": "Airport",
+      "yLabel": "Distance (km)"
+    }
+  ],
+  "data": {
+    "head": {
+      "vars": ["airport", "airport_label", "dist", "location"]
+    },
+    "results": {
+      "bindings": [
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q9686"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Berlin-Tempelhof Airport",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5.368708780378"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(13.401667 52.473611)"
+          }
         },
-        "airport_label": {
-          "type": "literal",
-          "value": "Berlin-Tempelhof Airport",
-          "xml:lang": "en"
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q9689"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Berlin Schönefeld Airport",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "18.40284113108"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(13.520556 52.378611)"
+          }
         },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "5.368708780378"
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q160556"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Berlin Brandenburg Airport",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "19.37628915206"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(13.500672 52.362247)"
+          }
         },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(13.401667 52.473611)"
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q20456666"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Nauen Airport",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "33.66730108372"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(12.914167 52.626388)"
+          }
+        },
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q35272046"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Kunice",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "91.84187369197"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(14.666667 52.266667)"
+          }
+        },
+        {
+          "airport": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q20452704"
+          },
+          "airport_label": {
+            "type": "literal",
+            "value": "Dedelow Airport",
+            "xml:lang": "en"
+          },
+          "dist": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "96.93806542489"
+          },
+          "location": {
+            "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+            "type": "literal",
+            "value": "POINT(13.783612 53.356112)"
+          }
         }
-      },
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q9689"
-        },
-        "airport_label": {
-          "type": "literal",
-          "value": "Berlin Schönefeld Airport",
-          "xml:lang": "en"
-        },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "18.40284113108"
-        },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(13.520556 52.378611)"
-        }
-      },
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q160556"
-        },
-        "airport_label": {
-          "type": "literal",
-          "value": "Berlin Brandenburg Airport",
-          "xml:lang": "en"
-        },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "19.37628915206"
-        },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(13.500672 52.362247)"
-        }
-      },
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q20456666"
-        },
-        "airport_label": {
-          "type": "literal",
-          "value": "Nauen Airport",
-          "xml:lang": "en"
-        },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "33.66730108372"
-        },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(12.914167 52.626388)"
-        }
-      },
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q35272046"
-        },
-        "airport_label": {
-          "type": "literal",
-          "value": "Kunice",
-          "xml:lang": "en"
-        },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "91.84187369197"
-        },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(14.666667 52.266667)"
-        }
-      },
-      {
-        "airport": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q20452704"
-        },
-        "airport_label": {
-          "type": "literal",
-          "value": "Dedelow Airport",
-          "xml:lang": "en"
-        },
-        "dist": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
-          "type": "literal",
-          "value": "96.93806542489"
-        },
-        "location": {
-          "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
-          "type": "literal",
-          "value": "POINT(13.783612 53.356112)"
-        }
-      }
-    ]
+      ]
+    }
   }
 }

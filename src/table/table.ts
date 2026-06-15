@@ -1,25 +1,53 @@
 import css from "./table.css?inline";
 import type { SparqlResults } from "../sparql-results";
 import type {
+  Binding,
   BindingValue,
   BlankNodeValue,
   LiteralValue,
   SPARQLResults,
+  TableRenderConfig,
   URIValue,
 } from "../types";
 
 const sheet = new CSSStyleSheet();
 sheet.replaceSync(css);
 
-export const tableRenderer = { sheet, render };
+export const tableRenderer = { sheet, render, appendRows };
 
-function render(el: SparqlResults, result: SPARQLResults) {
+/**
+ * Per-element render state, kept private to this module. It survives between
+ * the initial `render` and later `appendRows` calls so appends can continue the
+ * row numbering and re-use the column order without rebuilding the table.
+ */
+interface TableState {
+  table: HTMLTableElement;
+  vars: string[];
+  /** 1-based number of the next row to render. */
+  index: number;
+  /** Sentinel + observer driving infinite scroll; absent when not paginated. */
+  sentinel?: HTMLElement;
+  observer?: IntersectionObserver;
+}
+
+const states = new WeakMap<SparqlResults, TableState>();
+
+function render(
+  el: SparqlResults,
+  result: SPARQLResults,
+  config?: TableRenderConfig,
+) {
+  // Tear down any observer from a previous render so it does not keep firing
+  // against a detached sentinel.
+  states.get(el)?.observer?.disconnect();
+
   const result_container = el.shadowRoot!.getElementById(
     "result",
   ) as HTMLTableElement;
   result_container.innerHTML = "";
   const tableWrapper = document.createElement("div");
   tableWrapper.classList.add("table-wrapper");
+  if (config?.paginated) tableWrapper.classList.add("paginated");
   const table = document.createElement("table");
   tableWrapper.appendChild(table);
 
@@ -39,26 +67,86 @@ function render(el: SparqlResults, result: SPARQLResults) {
 
   table.appendChild(headerRow);
 
+  const state: TableState = { table, vars: result.head.vars, index: 1 };
+  states.set(el, state);
+
+  appendBindings(el, state, result.results.bindings);
+  result_container.appendChild(tableWrapper);
+
+  if (config?.paginated) {
+    // A zero-height sentinel just below the rows; when it scrolls into view we
+    // ask the host for the next page via a `load-more` event.
+    const sentinel = document.createElement("div");
+    sentinel.className = "table-sentinel";
+    tableWrapper.appendChild(sentinel);
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        // Stop observing until the host responds; appendRows re-arms us. This
+        // prevents a burst of duplicate events while a fetch is in flight.
+        observer.unobserve(sentinel);
+        el.dispatchEvent(
+          new CustomEvent("load-more", {
+            bubbles: true,
+            composed: true,
+            detail: { offset: state.index - 1 },
+          }),
+        );
+      },
+      { root: tableWrapper, rootMargin: "200px" },
+    );
+    observer.observe(sentinel);
+    state.sentinel = sentinel;
+    state.observer = observer;
+  }
+}
+
+/**
+ * Append the next page of bindings to a previously rendered table. An empty
+ * array means there is nothing left to load and tears down the observer.
+ */
+function appendRows(el: SparqlResults, bindings: Binding[]) {
+  const state = states.get(el);
+  if (!state) return;
+
+  if (bindings.length === 0) {
+    state.observer?.disconnect();
+    state.observer = undefined;
+    return;
+  }
+
+  appendBindings(el, state, bindings);
+
+  // Re-arm the observer now that new rows (and a shifted sentinel) are in place.
+  if (state.observer && state.sentinel) {
+    state.observer.observe(state.sentinel);
+  }
+}
+
+/** Render `bindings` as rows, advancing the running row index in `state`. */
+function appendBindings(
+  el: SparqlResults,
+  state: TableState,
+  bindings: Binding[],
+) {
   const fragment = document.createDocumentFragment();
-  let index = 1;
-  for (const binding of result.results.bindings) {
+  for (const binding of bindings) {
     const tr = document.createElement("tr");
     tr.classList =
       "dark:even:bg-[#1F1F26] not-dark:odd:bg-neutral-50 border-b border-b-gray-300 dark:border-b-gray-600";
     const td = document.createElement("td");
-    td.textContent = `${index}`;
+    td.textContent = `${state.index}`;
     td.className = "p-2 text-neutral-400";
     tr.appendChild(td);
-    for (const variable of result.head.vars) {
+    for (const variable of state.vars) {
       const element = renderValue(el, binding[variable]);
       tr.appendChild(element);
     }
     fragment.appendChild(tr);
-    index++;
+    state.index++;
   }
-
-  table.appendChild(fragment);
-  result_container.appendChild(tableWrapper);
+  state.table.appendChild(fragment);
 }
 
 function renderValue(

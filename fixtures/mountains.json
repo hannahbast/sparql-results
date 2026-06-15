@@ -1,0 +1,5384 @@
+{
+  "configs": [
+    {
+      "type": "table",
+      "paginated": true
+    },
+    {
+      "type": "lineplot",
+      "x": "mountain_name",
+      "y": ["max_height"],
+      "xLabel": "Mountain",
+      "yLabel": "Max height (m)"
+    }
+  ],
+  "data": {
+    "head": {
+      "vars": [
+        "country",
+        "country_name",
+        "mountain",
+        "mountain_name",
+        "max_height"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q148"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "People's Republic of China",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q513"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Everest",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8850.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q837"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Nepal",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q513"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Everest",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8850.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q843"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Pakistan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q43512"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "K2",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8611.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q668"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "India",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q82019"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Kanchenjunga",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "8586.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q917"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bhutan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q219986"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gangkhar Puensum",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7570.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q863"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tajikistan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q41413"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Ismoil Somoni Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7495.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q889"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Afghanistan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q271700"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Noshaq",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7492.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q813"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kyrgyzstan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q332762"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jengish Chokusu",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7439.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q15180"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Soviet Union",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q838587"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Lenin Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7134.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q232"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kazakhstan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q211529"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Khan Tengri",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "7010.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q414"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Argentina",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q39739"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Aconcagua",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6962.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q298"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Chile",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q233836"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Ojos del Salado",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6893.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q17252"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tibet",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q20190816"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Chomo Yummo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6829.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q419"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Peru",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q200935"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Huascarán",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6768.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q750"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bolivia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q272593"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Nevado Sajama",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6542.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q736"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ecuador",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q14081"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Chimborazo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "6263.47"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q16"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Canada",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q120306"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Logan",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5959.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q924"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tanzania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q7296"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Kilimanjaro",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5895.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q924"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tanzania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1394606"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Kibo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5895.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q836"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Myanmar",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q870063"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Hkakabo Razi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5881.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q739"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Colombia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q578862"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Cristóbal Colón",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5775.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q739"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Colombia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q338790"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Cristóbal Colón",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5775.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q159"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Russia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q43105"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Elbrus",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5642.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q96"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mexico",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q238147"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Citlaltepetl",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5636.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q794"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Iran",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q40758"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Damavand",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5628.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q114"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kenya",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q810817"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Batian",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5199.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q114"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kenya",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q172070"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Kenya",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5199.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q230"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Georgia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q217457"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Shkhara",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5193.2"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q34266"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Russian Empire",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q217457"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Shkhara",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5193.2"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q43"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Turkey",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q20517059"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Greater Ararat",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "5165.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q717"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Venezuela",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q213704"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Bolívar",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4978.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1036"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Uganda",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q838875"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Speke",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4890.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q252"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Indonesia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1045888"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Puncak Jaya",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4884.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q38"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Italy",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q583"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Blanc",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4810.02"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q142"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "France",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q583"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Blanc",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4810.02"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q810"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Jordan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2915115"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Hor",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4780.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q265"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Uzbekistan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q519822"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Khazret Sultan",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4643.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q39"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Switzerland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3403"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Dufourspitze",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4634.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q115"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ethiopia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q275435"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Ras Dashen",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4533.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q691"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Papua New Guinea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q277441"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Wilhelm",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4509.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1037"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Rwanda",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q737859"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Karisimbi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4507.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q974"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Democratic Republic of the Congo",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q737859"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Karisimbi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4507.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q227"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Azerbaijan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q725591"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Bazardüzü",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4466.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q711"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mongolia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1091113"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Hüiten Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4374.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q774"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Guatemala",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q818467"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Volcán Tajumulco",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4220.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1028"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Morocco",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q503433"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jbel Toubkal",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4167.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q833"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Malaysia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q60967"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Kota Kinabalu",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4095.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1009"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cameroon",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q190562"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Cameroon",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4095.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q399"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Armenia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q203568"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Aragats",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "4090.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q31354462"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Republic of Abkhazia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q24682383"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gvandra",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3985.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q865"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Taiwan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q500275"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Yushan Main Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3952.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q23427"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "South Ossetia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q12866144"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Laghztsiti",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3877.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q800"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Costa Rica",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q252362"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro Chirripó",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3820.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q40"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Austria",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3388"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Grossglockner",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3798.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q17"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Japan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q39231"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Fuji",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3777.24"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q664"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "New Zealand",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5059"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Aoraki / Mount Cook",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3724.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q29"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Spain",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q38954"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Teide",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3715.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q223"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Greenland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q825709"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gunnbjørn Fjeld",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3694.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q805"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Yemen",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1261935"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jabal an Nabi Shu'ayb",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3666.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q796"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Iraq",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1068860"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cheekha Dar",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3611.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1013"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Lesotho",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q733132"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Thabana Ntlenyana",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3482.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q804"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Panama",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q594726"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Volcan Baru",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3475.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q258"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "South Africa",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1883683"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mafadi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3450.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q657"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Chad",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q257441"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Emi Koussi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3445.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q20"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Norway",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q31714035"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mafjordfjellet",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3322.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q188712"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Empire of Japan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q15895145"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gundai Mountain",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3278.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q958"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "South Sudan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q948298"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Kinyeti",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3187.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q881"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Vietnam",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123782"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Fansipan",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3147.3"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q874"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Turkmenistan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q794684"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Aýrybaba",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3139.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q851"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Saudi Arabia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1261892"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jabal Sawda",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3133.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q786"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Dominican Republic",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q783742"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Duarte",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3101.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q822"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Lebanon",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q311330"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Qurnat as Sawda'",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3088.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q986"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Eritrea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1182787"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Dega",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3047.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q842"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Oman",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1261915"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jebel Shams",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3018.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q983"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Equatorial Guinea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1518286"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Basilé",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3011.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1020"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Malawi",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3044073"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Sapitwa",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "3002.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q155"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Brazil",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q8534941"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro de la Neblina",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2994.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q155"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Brazil",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q8530408"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Serra Imeri",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2994.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q155"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Brazil",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q739484"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico da Neblina",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2994.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q574"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Timor-Leste",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1539961"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Tatamailau",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2963.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q928"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Philippines",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q455963"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Apo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2954.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q228"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Andorra",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q62467"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Coma Pedrosa",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2942.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q219"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bulgaria",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q209341"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Musala",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2925.4"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q41"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Greece",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q80344"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Olympus",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2917.727"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q41"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Greece",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q545768"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mytikas",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2917.727"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q262"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Algeria",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q822326"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Tahat",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2908.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1019"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Madagascar",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q556289"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Ankaizina Field",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2878.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q215"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Slovenia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1024"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Triglav",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2864.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q783"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Honduras",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1055875"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro Las Minas",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2849.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1011"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cape Verde",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q499108"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico do Fogo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2829.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q819"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Laos",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q239485"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Phou Bia",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2819.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q575187"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Israeli-occupied territories",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q215471"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Hermon",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2813.95"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q734"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Guyana",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q4777"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Roraima",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2810.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q222"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Albania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q912579"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Korab",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2764.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q221"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "North Macedonia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q912579"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Korab",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2764.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q408"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Australia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2114101"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mawson Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2745.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q408"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Australia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q858516"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Big Ben",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2745.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q423"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "North Korea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q107635"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Baekdu Mountain",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2744.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q792"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "El Salvador",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q74214"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro El Pital",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2730.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q967"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Burundi",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1649074"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Heha",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2684.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q790"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Haiti",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1971319"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Peak la Selle",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2674.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1246"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kosovo",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q341983"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gjeravica",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2656.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q214"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Slovakia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q81213"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gerlachovský štít",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2655.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q79"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Egypt",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1140642"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Catherine",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2637.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q916"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Angola",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1348116"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Moco",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2619.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q347"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Liechtenstein",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q665000"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Grauspitz",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2599.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q954"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Zimbabwe",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q152294"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Nyangani",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2592.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q403"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Serbia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1140631"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Crn Vrv",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2585.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1030"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Namibia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q897834"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Brandberg",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2573.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1030"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Namibia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1796472"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Königstein",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2573.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q869"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Thailand",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1140075"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Doi Inthanon",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2565.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q218"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Romania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q746524"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Moldoveanu Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2544.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q854"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Sri Lanka",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1146327"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pidurutalagala",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2524.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q236"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Montenegro",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q671897"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Bobotov Kuk",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2522.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q36"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Poland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q672936"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Rysy",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2501.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1045"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Somalia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q649162"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Shimbiris",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2460.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1029"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mozambique",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1353678"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Monte Binga",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2436.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1033"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Nigeria",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q976055"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Chappal Waddi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2419.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q225"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bosnia and Herzegovina",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q837723"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Maglić",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2386.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q858"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Syria",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q135552924"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Si'on",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2381.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q970"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Comoros",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q527548"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Karthala",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2361.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q145"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "United Kingdom",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q11638996"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Nordenskjöld Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2355.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q45"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Portugal",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q928681"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Pico",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2351.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q953"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Zambia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q18351462"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mafinga Central",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2339.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q685"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Solomon Islands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q760819"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Popomanaseu",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2335.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1050"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Eswatini",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q107198363"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Sheba's Breast Mountain",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2298.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1016"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Libya",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q860146"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Bikku Bitti",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2267.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1049"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Sudan",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q29976941"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jebel Oda",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2260.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q766"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Jamaica",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q885798"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Blue Mountain Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2256.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q34"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Sweden",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q214011"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Kebnekaise",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2135.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q205047"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kurdistan Region of Iraq",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q4117159"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Korek",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2127.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q189"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Iceland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q298119"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Öræfajökull",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2110.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q212"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ukraine",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q627508"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Hoverla",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2061.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q977"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Djibouti",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1951029"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mousa Ali",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2028.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1039"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "São Tomé and Príncipe",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1471391"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico de São Tomé",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2024.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1032"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Niger",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3042286"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Idoukal-n-Taghès",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "2022.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q241"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cuba",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1145743"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pico Turquino",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1974.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q229"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cyprus",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q819979"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Olympus",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1952.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q884"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "South Korea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q494645"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Hallasan",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1947.06"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1044"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Sierra Leone",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q769525"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Bintumani",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1945.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q35086"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "South Georgia and the South Sandwich Islands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q6919644"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Baume",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1910.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q686"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Vanuatu",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1542459"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Tabwemasana",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1879.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q683"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Samoa",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1147814"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Silisili",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1858.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q811"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Nicaragua",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q21053435"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro Volcán Viejo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1854.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q921"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Brunei",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1003282"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Bukit Pagon",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1850.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q224"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Croatia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3183447"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Dinara",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1831.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q424"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cambodia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q539772"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Phnom Aural",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1813.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1008"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ivory Coast",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q849129"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Richard-Molard",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1752.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1006"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Guinea",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q849129"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Richard-Molard",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1752.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q878"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "United Arab Emirates",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q21737974"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jabal as Sayḩ",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1746.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q213"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Czech Republic",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q617511"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Sněžka",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1603.3"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q192184"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Saint Helena, Ascension and Tristan da Cunha",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q31454505"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "The Peak",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1578.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q948"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tunisia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1232136"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Jebel ech Chambi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1544.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q963"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Botswana",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q6897936"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Monalanong Hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1494.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q784"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Dominica",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1638549"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Morne Diablotins",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1447.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1014"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Liberia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1950836"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Wuteve",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1440.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q929"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Central African Republic",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2422162"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Ngaoui",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1410.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q33"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Finland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q216035"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Halti",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1361.4"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q712"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Fiji",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1513944"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Tomanivi",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1324.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q730"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Suriname",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1549215"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Julianatop",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1280.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q757"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Saint Vincent and the Grenadines",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q26544"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "La Soufrière",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1220.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q763"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Saint Kitts and Nevis",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1269774"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Liamuiga",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1156.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q235"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Monaco",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1517182"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Agel",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1148.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q242"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Belize",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q47490"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Doyle's Delight",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1124.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1000"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Gabon",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3210770"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Bengoué",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1070.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q902"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bangladesh",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2696459"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mowdok tiang",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1054.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q27"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ireland",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q503368"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Carrauntoohil",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1038.6"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q678"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tonga",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1520405"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Kao",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1030.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q219060"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Palestine",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q6922335"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Nabi Yunis",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1026.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q971"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Republic of the Congo",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q3113296"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Nabemba",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "1020.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q945"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Togo",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1753509"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Agou",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "986.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q28"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Hungary",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123521109"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pezsgő-kő",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "971.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q760"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Saint Lucia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1811114"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Gimie",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "952.4"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q754"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Trinidad and Tobago",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1056103"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "El Cerro del Aripo",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "940.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1025"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mauritania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2595789"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Kediet ej Jill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "915.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q117"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Ghana",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q108268146"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Leklata",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "907.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1042"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Seychelles",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1579060"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Morne Seychellois",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "905.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q912"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mali",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q30743902"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Essali",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "890.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q55"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Netherlands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1301834"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Scenery",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "887.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q4628"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Faroe Islands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q738746"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Slættaratindur",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "880.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q733"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Paraguay",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1055965"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Cerro Tres Kandú",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "842.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q769"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Grenada",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q525281"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Saint Catherine",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "840.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1027"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Mauritius",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1760978"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Piton de la Petite Rivière Noire",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "828.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q23792"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Palestine",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q126164404"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Tarouja",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "800.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q702"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Federated States of Micronesia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1236265"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Dolohmwar",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "791.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q238"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "San Marino",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q158526"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Monte Titano",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "756.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q965"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Burkina Faso",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q116675"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Tenakourou",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "749.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q620634"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bir Tawil",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q16892876"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gabal Hagar El Zarqa",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "714.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q9648"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Falkland Islands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q7998380"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Wickham Heights",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "705.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q31"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Belgium",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q322824"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Signal de Botrange",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "694.24"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q23681"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Northern Cyprus",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q22988507"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Pentadaktylos",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "683.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q962"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Benin",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q923330"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mont Sokbaro",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "658.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q26988"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Cook Islands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q498069"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Te Manga",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "652.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1041"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Senegal",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q135618139"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Nepen Diakha",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "648.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q9676"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Isle of Man",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q147557"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Snaefell",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "621.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q42585"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Kingdom of Bohemia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q30910890"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Gediminas Hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "532.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q217"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Moldova",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q47940"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Bălănești Hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "430.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q781"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Antigua and Barbuda",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1718336"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Obama",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "402.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q26273"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Sint Maarten",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q107337472"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Flagstaff",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "390.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q25279"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Curaçao",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1430850"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Christoffelberg",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "375.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q184"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Belarus",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2662409"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Lysaja",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "342.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q244"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Barbados",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1854502"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Hillaby",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "340.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q37"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Lithuania",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q771431"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Aukštojas Hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "293.84"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q695"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Palau",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1191219"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Ngerchelchuus",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "242.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q21203"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Aruba",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q594885"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Jamanota",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "188.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q398"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Bahrain",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1032812"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mountain of Smoke",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "134.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q846"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Qatar",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1633034"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Qurayn Abu al Bawl",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "103.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q211"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Latvia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q139763506"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Northern hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "100.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q697"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Nauru",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q2667931"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Command Ridge",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "70.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q778"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "The Bahamas",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q746274"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Mount Alvernia",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "63.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q826"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Maldives",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q850560"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Villingili",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "51.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1005"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "The Gambia",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q130316616"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Sare Firasu Hill",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "50.9"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q672"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Tuvalu",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q34664707"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Emerging Land of Kosciusko Seamount",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "16.0"
+          }
+        },
+        {
+          "country": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q27561"
+          },
+          "country_name": {
+            "type": "literal",
+            "value": "Caribbean Netherlands",
+            "xml:lang": "en"
+          },
+          "mountain": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q21808772"
+          },
+          "mountain_name": {
+            "type": "literal",
+            "value": "Ceru Bentana",
+            "xml:lang": "en"
+          },
+          "max_height": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "13.0"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "query-time-ms": 1697,
+      "result-size-total": 214
+    }
+  }
+}

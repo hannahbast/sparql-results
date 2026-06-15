@@ -1,0 +1,5468 @@
+{
+  "configs": [
+    {
+      "type": "table",
+      "paginated": true
+    },
+    {
+      "type": "lineplot",
+      "x": "time",
+      "y": ["population"],
+      "xLabel": "Year",
+      "yLabel": "Population"
+    }
+  ],
+  "data": {
+    "head": {
+      "vars": ["label", "time", "population"]
+    },
+    "results": {
+      "bindings": [
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1960-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "141637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1960-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "141637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1960-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "141637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1960-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "141637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1960-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "141637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1961-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "154153.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1961-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "154153.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1961-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "154153.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1961-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "154153.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1961-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "154153.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1962-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "158089.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1962-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "158089.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1962-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "158089.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1962-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "158089.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1962-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "158089.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1963-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "160600.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1963-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "160600.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1963-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "160600.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1963-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "160600.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1963-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "160600.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1964-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163007.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1964-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163007.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1964-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163007.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1964-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163007.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1964-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163007.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1965-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "165163.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1965-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "165163.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1965-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "165163.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1965-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "165163.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1965-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "165163.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1966-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "168017.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1966-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "168017.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1966-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "168017.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1966-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "168017.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1966-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "168017.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1967-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "171680.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1967-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "171680.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1967-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "171680.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1967-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "171680.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1967-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "171680.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1968-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "173503.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1968-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "173503.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1968-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "173503.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1968-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "173503.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1968-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "173503.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1969-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178633.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1969-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178633.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1969-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178633.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1969-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178633.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1969-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178633.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1970-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163568.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1970-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163568.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1970-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163568.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1970-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163568.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1970-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "163568.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1971-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177292.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1971-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177292.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1971-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177292.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1971-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177292.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1971-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177292.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1972-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178565.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1972-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178565.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1972-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178565.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1972-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178565.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1972-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178565.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1973-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179534.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1973-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179534.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1973-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179534.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1973-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179534.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1973-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179534.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1974-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179196.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1974-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179196.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1974-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179196.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1974-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179196.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1974-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179196.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1975-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175371.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1976-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175044.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1976-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175044.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1976-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175044.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1976-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175044.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1976-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175044.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1977-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174928.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1977-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174928.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1977-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174928.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1977-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174928.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1977-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174928.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1978-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1978-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1978-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1978-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1978-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1979-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1979-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1979-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1979-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1979-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "174121.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1980-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175106.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1980-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175106.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1980-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175106.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1980-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175106.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1980-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "175106.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1981-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1981-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1981-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1981-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1981-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "177637.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1982-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178545.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1982-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178545.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1982-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178545.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1982-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178545.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1982-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178545.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1983-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179556.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1983-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179556.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1983-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179556.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1983-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179556.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1983-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "179556.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1984-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "181304.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1984-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "181304.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1984-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "181304.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1984-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "181304.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1984-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "181304.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1985-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "184230.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1985-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "184230.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1985-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "184230.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1985-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "184230.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1985-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "184230.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1986-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "186156.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1986-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "186156.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1986-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "186156.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1986-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "186156.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1986-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "186156.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1987-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178672.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1987-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178672.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1987-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178672.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1987-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178672.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1987-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "178672.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1988-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183979.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1988-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183979.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1988-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183979.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1988-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183979.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1988-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "183979.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1989-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "187767.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1989-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "187767.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1989-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "187767.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1989-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "187767.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1989-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "187767.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1990-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "191029.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1990-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "191029.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1990-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "191029.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1990-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "191029.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1990-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "191029.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1991-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "193775.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1991-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "193775.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1991-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "193775.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1991-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "193775.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1991-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "193775.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1992-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "195789.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1992-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "195789.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1992-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "195789.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1992-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "195789.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1992-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "195789.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1993-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "197384.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1993-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "197384.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1993-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "197384.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1993-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "197384.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1993-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "197384.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1994-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "198496.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1994-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "198496.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1994-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "198496.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1994-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "198496.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1994-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "198496.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1995-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "199273.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1995-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "199273.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1995-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "199273.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1995-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "199273.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1995-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "199273.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1996-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200393.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1996-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200393.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1996-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200393.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1996-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200393.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1996-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200393.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1997-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200519.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1997-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200519.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1997-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200519.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1997-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200519.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1997-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200519.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1998-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200980.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1998-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200980.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1998-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200980.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1998-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200980.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1998-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "200980.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1999-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "202455.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1999-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "202455.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1999-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "202455.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1999-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "202455.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1999-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "202455.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2000-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "205102.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2000-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "205102.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2000-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "205102.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2000-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "205102.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2000-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "205102.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2001-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "208294.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2001-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "208294.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2001-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "208294.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2001-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "208294.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2001-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "208294.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2002-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210234.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2002-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210234.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2002-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210234.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2002-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210234.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2002-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "210234.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2003-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "212495.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2003-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "212495.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2003-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "212495.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2003-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "212495.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2003-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "212495.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2004-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "213998.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2004-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "213998.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2004-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "213998.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2004-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "213998.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2004-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "213998.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2005-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "215966.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2005-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "215966.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2005-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "215966.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2005-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "215966.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2005-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "215966.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2006-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "217547.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2006-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "217547.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2006-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "217547.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2006-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "217547.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2006-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "217547.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2007-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219430.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2007-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219430.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2007-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219430.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2007-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219430.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2007-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219430.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2008-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219665.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2008-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219665.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2008-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219665.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2008-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219665.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2008-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "219665.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2009-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "221924.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2009-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "221924.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2009-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "221924.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2009-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "221924.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2009-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "221924.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2010-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "224191.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2010-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "224191.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2010-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "224191.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2010-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "224191.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2010-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "224191.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2011-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229144.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2011-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229144.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2011-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229144.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2011-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229144.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2011-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229144.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2012-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "218043.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2012-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "218043.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2012-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "218043.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2012-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "218043.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2012-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "218043.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2013-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "220286.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2013-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "220286.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2013-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "220286.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2013-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "220286.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2013-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "220286.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2014-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "222203.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2014-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "222203.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2014-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "222203.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2014-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "222203.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2014-01-01T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "222203.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2016-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "227590.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2016-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "227590.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2016-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "227590.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2016-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "227590.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2016-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "227590.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2018-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229636.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2018-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229636.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2018-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229636.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2018-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229636.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2018-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "229636.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-10-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-10-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-10-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-10-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2019-10-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230241.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230940.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230940.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230940.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230940.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-09-30T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "230940.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "231848.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "231848.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "231848.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "231848.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2021-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "231848.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2022-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "236140.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2022-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "236140.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2022-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "236140.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2022-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "236140.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2022-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "236140.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2023-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "237244.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2023-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "237244.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2023-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "237244.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2023-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "237244.0"
+          }
+        },
+        {
+          "label": {
+            "type": "literal",
+            "value": "Freiburg im Breisgau",
+            "xml:lang": "en"
+          },
+          "time": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "2023-12-31T00:00:00Z"
+          },
+          "population": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "type": "literal",
+            "value": "237244.0"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "query-time-ms": 62,
+      "result-size-total": 320
+    }
+  }
+}

@@ -1,7 +1,31 @@
 :host {
+  /* Theme tokens — override from the host page, e.g.
+       sparql-results { --sr-accent: #2563eb; } */
+  --sr-font: system-ui, sans-serif;
+  --sr-text: #1f2933;
+  --sr-surface: #ffffff;
+  --sr-surface-alt: #eeeeee;
+  --sr-border: #888888;
+  --sr-row-border: #cccccc;
+  --sr-accent: #60a5fa;
+  --sr-accent-active: #1e40af;
+  --sr-radius: 8px;
+  --sr-padding: 1rem;
+
   display: block;
-  padding: 1rem;
-  border: 1px solid #888;
-  border-radius: 8px;
-  font-family: system-ui, sans-serif;
+  padding: var(--sr-padding);
+  border: 1px solid var(--sr-border);
+  border-radius: var(--sr-radius);
+  font-family: var(--sr-font);
+  color: var(--sr-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :host {
+    --sr-text: #e4e7eb;
+    --sr-surface: #1f2227;
+    --sr-surface-alt: #2b2f36;
+    --sr-border: #3e444c;
+    --sr-row-border: #3e444c;
+  }
 }

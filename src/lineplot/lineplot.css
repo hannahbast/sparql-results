@@ -1,0 +1,193 @@
+.lineplot {
+  --lp-text: #1f2933;
+  --lp-muted: #7b8794;
+  --lp-grid: #e4e7eb;
+  --lp-axis: #cbd2d9;
+  --lp-surface: #ffffff;
+  --lp-surface-border: #e4e7eb;
+
+  position: relative;
+  width: 100%;
+  font-family: system-ui, sans-serif;
+  color: var(--lp-text);
+}
+
+@media (prefers-color-scheme: dark) {
+  .lineplot {
+    --lp-text: #e4e7eb;
+    --lp-muted: #9aa5b1;
+    --lp-grid: #2b2f36;
+    --lp-axis: #3e444c;
+    --lp-surface: #1f2227;
+    --lp-surface-border: #3e444c;
+  }
+}
+
+.lineplot svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.lineplot .lp-grid line {
+  stroke: var(--lp-grid);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.lineplot .lp-grid .domain,
+.lineplot .lp-grid path {
+  display: none;
+}
+
+.lineplot .lp-axis .domain {
+  stroke: var(--lp-axis);
+}
+
+.lineplot .lp-axis .tick line {
+  stroke: var(--lp-axis);
+}
+
+.lineplot .lp-axis .tick text {
+  fill: var(--lp-muted);
+  font-size: 11px;
+}
+
+.lineplot .lp-axis-label {
+  fill: var(--lp-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.lineplot .lp-line {
+  fill: none;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transition: opacity 0.15s ease;
+}
+
+.lineplot .lp-dot {
+  transition:
+    r 0.12s ease,
+    opacity 0.15s ease;
+}
+
+.lineplot.lp-has-hover .lp-line {
+  opacity: 0.35;
+}
+
+.lineplot.lp-has-hover .lp-line.lp-active {
+  opacity: 1;
+}
+
+.lineplot .lp-crosshair {
+  stroke: var(--lp-muted);
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+  pointer-events: none;
+}
+
+.lineplot .lp-focus-dot {
+  stroke: var(--lp-surface);
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+/* Legend */
+.lineplot .lp-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.lineplot .lp-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 12px;
+  color: var(--lp-muted);
+  cursor: pointer;
+  user-select: none;
+  transition:
+    color 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.lineplot .lp-legend-item:hover {
+  color: var(--lp-text);
+}
+
+.lineplot .lp-legend-item.lp-disabled {
+  opacity: 0.4;
+}
+
+.lineplot .lp-legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Tooltip */
+.lineplot .lp-tooltip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  min-width: 120px;
+  padding: 0.5rem 0.625rem;
+  background: var(--lp-surface);
+  border: 1px solid var(--lp-surface-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  font-size: 12px;
+  color: var(--lp-text);
+  opacity: 0;
+  transform: translateY(2px);
+  transition:
+    opacity 0.12s ease,
+    transform 0.12s ease;
+}
+
+.lineplot .lp-tooltip.lp-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lineplot .lp-tooltip-x {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.lineplot .lp-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  line-height: 1.5;
+}
+
+.lineplot .lp-tooltip-swatch {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.lineplot .lp-tooltip-name {
+  color: var(--lp-muted);
+  margin-right: auto;
+}
+
+.lineplot .lp-tooltip-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.lineplot .lp-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--lp-muted);
+  font-size: 13px;
+}

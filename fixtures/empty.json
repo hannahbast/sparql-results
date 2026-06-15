@@ -1,4 +1,15 @@
 {
-  "head": { "vars": [] },
-  "results": { "bindings": [] }
+  "configs": [
+    {
+      "type": "table"
+    }
+  ],
+  "data": {
+    "head": {
+      "vars": []
+    },
+    "results": {
+      "bindings": []
+    }
+  }
 }
