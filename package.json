@@ -2,9 +2,17 @@
   "name": "sparql-results",
   "version": "0.1.0",
   "type": "module",
-  "author": "Ioannis Nezis<ioannis@nezis.de",
+  "author": "Ioannis Nezis <ioannis@nezis.de>",
   "description": "A framework-agnostic web component for rendering SPARQL results.",
   "license": "Apache-2.0",
+  "keywords": [
+    "sparql",
+    "rdf",
+    "web-component",
+    "custom-element",
+    "visualization",
+    "semantic-web"
+  ],
   "files": [
     "dist"
   ],
@@ -19,6 +27,7 @@
     "./dist/sparql-results.js"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -33,5 +42,12 @@
     "typescript": "~6.0.2",
     "unplugin-dts": "^1.0.2",
     "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "d3-array": "^3.2.4",
+    "d3-axis": "^3.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-shape": "^3.2.0"
   }
 }

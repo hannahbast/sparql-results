@@ -49,3 +49,7 @@ el.render_results(results, { type: "lineplot", x: "country", y: ["population"] }
 npm run dev      # start the Vite dev server with a fixture browser
 npm run build    # type-check and build the distributable
 ```
+
+## License
+
+[Apache-2.0](LICENSE)

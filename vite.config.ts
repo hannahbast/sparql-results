@@ -13,5 +13,10 @@ export default defineConfig({
       fileName: "sparql-results",
       formats: ["es"],
     },
+    rollupOptions: {
+      // d3 submodules are declared as dependencies, not bundled, so consumers
+      // can dedupe them against their own d3 install.
+      external: [/^d3-/],
+    },
   },
 });
