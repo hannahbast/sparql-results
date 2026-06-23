@@ -5,6 +5,14 @@
   "author": "Ioannis Nezis <ioannis@nezis.de>",
   "description": "A framework-agnostic web component for rendering SPARQL results.",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IoannisNezis/sparql-results.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IoannisNezis/sparql-results/issues"
+  },
+  "homepage": "https://github.com/IoannisNezis/sparql-results#readme",
   "keywords": [
     "sparql",
     "rdf",
