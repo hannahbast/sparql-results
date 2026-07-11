@@ -1,4 +1,7 @@
-export type RenderConfig = TableRenderConfig | LinePlotRenderConfig;
+export type RenderConfig =
+  | TableRenderConfig
+  | LinePlotRenderConfig
+  | PetrimapsRenderConfig;
 
 /** A demo/test fixture: a result set bundled with the ways to render it. */
 export interface Fixture {
@@ -25,6 +28,44 @@ export interface LinePlotRenderConfig {
   /** Optional axis labels; defaults to the variable names. */
   xLabel?: string;
   yLabel?: string;
+}
+
+/** Rendering style of a petrimaps layer. */
+export type PetrimapsStyle = "auto" | "objects" | "heatmap" | "raster";
+
+/**
+ * Map rendering via qlever-petrimaps. Mirrors the per-query config of the
+ * petrimaps `/query?cfg=` endpoint: one entry in `layers` per rendered layer.
+ */
+export interface PetrimapsRenderConfig {
+  type: "petrimaps";
+  layers: PetrimapsLayer[];
+}
+
+/** One rendered layer; the keys match petrimaps' layer objects. */
+export interface PetrimapsLayer {
+  /** Query variable (without `?`) holding the WKT geometry. */
+  geomfield: string;
+  /** Stable layer id; petrimaps auto-generates one if omitted. */
+  id?: string;
+  /** Human-readable layer name shown in the UI; defaults to `geomfield`. */
+  name?: string;
+  /** Query variable holding a numeric value used to weight/color objects. */
+  weightfield?: string;
+  /** Query variable holding the raster-metadata subject. */
+  rasterfield?: string;
+  /** Query variable used to toggle/group objects in the UI. */
+  toggle?: string;
+  /** Raster cell width in web-mercator pseudometers (petrimaps default: 10). */
+  rasterw?: number;
+  /** Raster cell height in web-mercator pseudometers (petrimaps default: 10). */
+  rasterh?: number;
+  /** Object color as 6-digit hex without `#` (petrimaps default: "3388ff"). */
+  color?: string;
+  /** Heatmap/raster color scheme (petrimaps default: "spectralexp"). */
+  colorscheme?: string;
+  /** Rendering style (petrimaps default: "auto"). */
+  style?: PetrimapsStyle;
 }
 
 export interface SPARQLResults {

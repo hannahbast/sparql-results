@@ -1,5 +1,9 @@
+import { parse } from "yaml";
 import type {
   LinePlotRenderConfig,
+  PetrimapsLayer,
+  PetrimapsRenderConfig,
+  PetrimapsStyle,
   RenderConfig,
   TableRenderConfig,
 } from "./types";
@@ -15,15 +19,15 @@ export type ExtractConfigResult =
 /**
  * Derive a render config from a SPARQL query.
  *
- * The query may carry a plot config in a `#+` comment frontmatter, e.g.
+ * The query may carry a plot config as YAML frontmatter in `#+` comments, e.g.
  *
  * ```sparql
  * #+ result-plot:
- * #+   type: lineplot
- * #+   x: x
- * #+   y: [y, z]
- * #+   xLabel: dings
- * #+   yLabel: foo
+ * #+   type: petrimaps
+ * #+   layers:
+ * #+     - geomfield: geometry
+ * #+       weightfield: population
+ * #+       style: heatmap
  * ```
  *
  * Behaviour:
@@ -38,19 +42,24 @@ export function extractConfig(query: string): ExtractConfigResult {
   const lines = extractFrontmatterLines(query);
   if (lines === null) return { ok: true, config: { type: "table" } };
 
-  const rootIdx = lines.findIndex((l) => /^result-plot:/.test(l.trim()));
-  // Frontmatter comments exist, but none open a plot config: fall back to table.
-  if (rootIdx === -1) return { ok: true, config: { type: "table" } };
+  let doc: unknown;
+  try {
+    doc = parse(lines.join("\n"));
+  } catch (e) {
+    return err(`invalid YAML in config comment: ${(e as Error).message}`);
+  }
 
-  const inline = lines[rootIdx].trim().slice("result-plot:".length).trim();
-  if (inline !== "") {
+  // Frontmatter comments exist, but none open a plot config: fall back to table.
+  if (!isMapping(doc) || !("result-plot" in doc)) {
+    return { ok: true, config: { type: "table" } };
+  }
+
+  const raw = doc["result-plot"];
+  if (!isMapping(raw)) {
     return err('"result-plot" must be a mapping of config fields');
   }
 
-  const mapping = parseMapping(lines, rootIdx);
-  if ("error" in mapping) return err(mapping.error);
-
-  return validate(mapping.value);
+  return validate(raw);
 }
 
 /** A `#+` line, capturing everything after the prefix (one optional space). */
@@ -70,73 +79,11 @@ function extractFrontmatterLines(query: string): string[] | null {
   return out.length > 0 ? out : null;
 }
 
-/** A scalar (`type: lineplot`) or a flow sequence (`y: [y, z]`). */
-type RawValue = string | string[];
-type RawMapping = Record<string, RawValue>;
+/** A parsed YAML mapping with string keys. */
+type RawMapping = Record<string, unknown>;
 
-/** Number of leading spaces on a line. */
-function indentOf(line: string): number {
-  return line.length - line.trimStart().length;
-}
-
-/**
- * Parse the indented `key: value` block beneath `result-plot:`. Strict: every
- * child must share one indentation level and match the supported line shape,
- * so anything outside this small subset surfaces as an error rather than being
- * silently misread.
- */
-function parseMapping(
-  lines: string[],
-  rootIdx: number,
-): { value: RawMapping } | { error: string } {
-  const baseIndent = indentOf(lines[rootIdx]);
-  const out: RawMapping = {};
-  let childIndent: number | null = null;
-
-  for (let i = rootIdx + 1; i < lines.length; i++) {
-    const line = lines[i];
-    if (line.trim() === "") continue;
-
-    const indent = indentOf(line);
-    if (indent <= baseIndent) break; // dedent ends the block
-
-    if (childIndent === null) childIndent = indent;
-    if (indent !== childIndent) {
-      return { error: `unexpected indentation at "${line.trim()}"` };
-    }
-
-    const match = line.trim().match(/^([A-Za-z][\w-]*):\s*(.*)$/);
-    if (!match) return { error: `invalid config line "${line.trim()}"` };
-
-    const key = match[1];
-    if (key in out) return { error: `duplicate field "${key}"` };
-    out[key] = parseValue(match[2]);
-  }
-
-  return { value: out };
-}
-
-/** Parse a single value: a `[a, b]` flow sequence or a (possibly quoted) scalar. */
-function parseValue(raw: string): RawValue {
-  const value = raw.trim();
-  if (value.startsWith("[") && value.endsWith("]")) {
-    const inner = value.slice(1, -1).trim();
-    if (inner === "") return [];
-    return inner.split(",").map((item) => unquote(item.trim()));
-  }
-  return unquote(value);
-}
-
-/** Strip a single pair of surrounding single or double quotes. */
-function unquote(value: string): string {
-  if (value.length >= 2) {
-    const first = value[0];
-    const last = value[value.length - 1];
-    if ((first === '"' || first === "'") && first === last) {
-      return value.slice(1, -1);
-    }
-  }
-  return value;
+function isMapping(value: unknown): value is RawMapping {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
 function err(error: string): ExtractConfigResult {
@@ -154,6 +101,8 @@ function validate(raw: RawMapping): ExtractConfigResult {
       return validateLinePlot(raw);
     case "table":
       return validateTable(raw);
+    case "petrimaps":
+      return validatePetrimaps(raw);
     default:
       return err(`unknown plot type "${type}"`);
   }
@@ -186,7 +135,11 @@ function validateLinePlot(raw: RawMapping): ExtractConfigResult {
   let y: string[];
   if (typeof raw.y === "string" && raw.y !== "") {
     y = [raw.y];
-  } else if (Array.isArray(raw.y) && raw.y.length > 0) {
+  } else if (
+    Array.isArray(raw.y) &&
+    raw.y.length > 0 &&
+    raw.y.every((item) => typeof item === "string")
+  ) {
     y = raw.y;
   } else {
     return err('lineplot config requires "y" to list at least one variable');
@@ -211,10 +164,134 @@ function validateTable(raw: RawMapping): ExtractConfigResult {
   const config: TableRenderConfig = { type: "table" };
 
   if (raw.paginated !== undefined) {
-    if (raw.paginated === "true") config.paginated = true;
-    else if (raw.paginated === "false") config.paginated = false;
-    else return err('"paginated" must be true or false');
+    if (typeof raw.paginated !== "boolean") {
+      return err('"paginated" must be true or false');
+    }
+    config.paginated = raw.paginated;
   }
 
   return { ok: true, config };
+}
+
+const PETRIMAPS_STYLES: PetrimapsStyle[] = [
+  "auto",
+  "objects",
+  "heatmap",
+  "raster",
+];
+
+/** Color schemes accepted by petrimaps, each also available with an `exp` suffix. */
+const PETRIMAPS_COLORSCHEMES = [
+  "spectral",
+  "RdYlGn",
+  "RdYlBu",
+  "RdGy",
+  "YlOrRd",
+  "Blues",
+  "Greens",
+  "Greys",
+  "Oranges",
+  "Reds",
+].flatMap((scheme) => [scheme, `${scheme}exp`]);
+
+function validatePetrimaps(raw: RawMapping): ExtractConfigResult {
+  const unknown = rejectUnknownFields(raw, ["type", "layers"], "petrimaps");
+  if (unknown) return err(unknown);
+
+  if (!Array.isArray(raw.layers) || raw.layers.length === 0) {
+    return err('petrimaps config requires "layers" to list at least one layer');
+  }
+
+  const layers: PetrimapsLayer[] = [];
+  for (const [i, entry] of raw.layers.entries()) {
+    const layer = validateLayer(entry);
+    if (typeof layer === "string") return err(`layer ${i + 1}: ${layer}`);
+    layers.push(layer);
+  }
+
+  const config: PetrimapsRenderConfig = { type: "petrimaps", layers };
+  return { ok: true, config };
+}
+
+/** Validate one entry of `layers`; returns the layer or an error string. */
+function validateLayer(entry: unknown): PetrimapsLayer | string {
+  if (!isMapping(entry)) return "must be a mapping of layer fields";
+
+  const unknown = rejectUnknownFields(
+    entry,
+    [
+      "geomfield",
+      "id",
+      "name",
+      "weightfield",
+      "rasterfield",
+      "toggle",
+      "rasterw",
+      "rasterh",
+      "color",
+      "colorscheme",
+      "style",
+    ],
+    "layer",
+  );
+  if (unknown) return unknown;
+
+  if (typeof entry.geomfield !== "string" || entry.geomfield === "") {
+    return '"geomfield" must be a variable name';
+  }
+
+  const layer: PetrimapsLayer = { geomfield: entry.geomfield };
+
+  for (const field of [
+    "id",
+    "name",
+    "weightfield",
+    "rasterfield",
+    "toggle",
+  ] as const) {
+    const value = entry[field];
+    if (value === undefined) continue;
+    if (typeof value !== "string" || value === "") {
+      return `"${field}" must be a non-empty string`;
+    }
+    layer[field] = value;
+  }
+
+  for (const field of ["rasterw", "rasterh"] as const) {
+    const value = entry[field];
+    if (value === undefined) continue;
+    if (typeof value !== "number" || !Number.isInteger(value) || value <= 0) {
+      return `"${field}" must be a positive integer`;
+    }
+    layer[field] = value;
+  }
+
+  if (entry.color !== undefined) {
+    // All-digit hex colors parse as YAML numbers; require quoting instead.
+    if (
+      typeof entry.color !== "string" ||
+      !/^[0-9a-fA-F]{6}$/.test(entry.color)
+    ) {
+      return '"color" must be a 6-digit hex string without "#" (quote it, e.g. "3388ff")';
+    }
+    layer.color = entry.color;
+  }
+
+  if (entry.colorscheme !== undefined) {
+    if (
+      typeof entry.colorscheme !== "string" ||
+      !PETRIMAPS_COLORSCHEMES.includes(entry.colorscheme)
+    ) {
+      return `unknown colorscheme "${entry.colorscheme}"`;
+    }
+    layer.colorscheme = entry.colorscheme;
+  }
+
+  if (entry.style !== undefined) {
+    const style = PETRIMAPS_STYLES.find((s) => s === entry.style);
+    if (style === undefined) return `unknown style "${entry.style}"`;
+    layer.style = style;
+  }
+
+  return layer;
 }
