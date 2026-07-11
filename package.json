@@ -1,6 +1,6 @@
 {
   "name": "sparql-results",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "author": "Ioannis Nezis <ioannis@nezis.de>",
   "description": "A framework-agnostic web component for rendering SPARQL results.",
