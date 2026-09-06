@@ -66,6 +66,11 @@ export interface PetrimapsLayer {
   colorscheme?: string;
   /** Rendering style (petrimaps default: "auto"). */
   style?: PetrimapsStyle;
+  /**
+   * Pixel radius of a point in the objects style, 0–50 (petrimaps default: 1,
+   * i.e. a 3×3 pixel square).
+   */
+  pointsize?: number;
 }
 
 export interface SPARQLResults {

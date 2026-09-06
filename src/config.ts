@@ -231,6 +231,7 @@ function validateLayer(entry: unknown): PetrimapsLayer | string {
       "color",
       "colorscheme",
       "style",
+      "pointsize",
     ],
     "layer",
   );
@@ -291,6 +292,19 @@ function validateLayer(entry: unknown): PetrimapsLayer | string {
     const style = PETRIMAPS_STYLES.find((s) => s === entry.style);
     if (style === undefined) return `unknown style "${entry.style}"`;
     layer.style = style;
+  }
+
+  if (entry.pointsize !== undefined) {
+    const value = entry.pointsize;
+    if (
+      typeof value !== "number" ||
+      !Number.isInteger(value) ||
+      value < 0 ||
+      value > 50
+    ) {
+      return '"pointsize" must be an integer between 0 and 50';
+    }
+    layer.pointsize = value;
   }
 
   return layer;
